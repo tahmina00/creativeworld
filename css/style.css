@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, "Inter", sans-serif;
+  color:191919;
+}
+
+.loginbutton{
+    border-radius: 50px;
+    background-color: #DEE8FF;
+    padding:7px 24px;
+    
+}
+.loginbutton a{
+color:#0057FF;
+}
+.signupbutton{
+    border-radius: 50px;
+    background-color: #0057FF;
+    padding:7px 24px;
+    
+}
+.signupbutton a{
+color:#fff;
+}
+.secondrowmenu li{
+    color:#000;
+    font-weight: 700;
+}
+.secondrowmenu .projectsbutton li{
+   border-radius: 50px;
+    background-color: #000;
+    padding:7px 24px; 
+    color:#fff;
+}
+
+/* Filter Button Card Style */
+.btn-filter {
+  background-color: #ffffff;
+  border: 1px solid #e1e1e1;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #191919;
+  white-space: nowrap;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+  transition: all 0.2s ease;
+}
+
+.btn-filter:hover, .btn-filter:focus, .btn-filter.show {
+  background-color: #f5f5f5;
+  border-color: #cccccc;
+  color: #000000;
+}
+
+.btn-filter i {
+  margin-right: 6px;
+  color: #333333;
+}
+
+/* Sort Dropdown Right Side */
+.btn-sort {
+  border: none;
+  background: transparent;
+  padding: 0;
+  font-size: 13px;
+  color: #191919;
+}
+
+.btn-sort .small-text {
+  font-size: 11px;
+  line-height: 1;
+}
+
+#image-part2{
+   background-color:#F2F2F2;
+}
+#image-part2 card{
+  background-color: #F2F2F2;
+}
+#image-part2 .card-body{
+  background-color: #F2F2F2;
+}
+#image-part2 h5{
+   background-color:#F2F2F2;
+   color:#191919;
+   font-size: 19;
+   font-weight: 700;
+}
+
+/* Horizontal Scroll wrapper for Mobile Screen */
+.filter-scroll-wrapper {
+  overflow-x: auto;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 4px;
+}
+
+.filter-scroll-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+/* Mobile Screen Font & Padding Adjustment */
+@media (max-width: 767.98px) {
+  .btn-filter {
+    font-size: 12px;
+    padding: 6px 10px;
+    border-radius: 6px;
+  }
+  
+  .btn-filter i {
+    font-size: 11px;
+    margin-right: 4px;
+  }
+}
+
+
+
+/* .creativerow .container{
+  
+}
+#creativerow{
+ 
+}
+#creativerow div ul{
+    border:2px solid #000;
+    width:1400px; 
+    position: absolute;
+    right: 70px;
+    bottom: 20px;
+}
+#creativerow div ul li{
+   margin-right:90px;
+}
+#creativerow div ul li a{
+ font-weight: 700;
+ color:#000;
+}
+#image-part h5{
+ font-size: 14px;;
+ font-weight:400;
+ color:#191919;
+ font-family: "Inter", sans-serif;
+}
+
+.navbar-scroll-wrapper {
+  overflow-x: auto;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+
+.navbar-scroll-wrapper::-webkit-scrollbar {
+  display: none;
+}
+.navbar-scroll-wrapper {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+} */

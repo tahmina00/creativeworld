@@ -1,0 +1,24 @@
+
+
+ /* মোবাইল বা ছোট স্ক্রিনের জন্য (768px এর নিচে) */
+@media (max-width: 767.98px) {
+  #creativerow .nav-link {
+    font-size: 13px; /* ফন্ট সাইজ ছোট করার জন্য */
+    padding-left: 6px !important;
+    padding-right: 6px !important;
+  }
+
+  #creativerow .nav-link i {
+    font-size: 11px; /* আইকন সাইজ ছোট করার জন্য */
+  }
+
+  #creativerow .dropdown-menu {
+    font-size: 13px; /* ড্রপডাউন অপশনগুলোর ফন্ট সাইজ */
+  }
+}
+
+@media (min-width: 576px) { 
+
+   
+    
+ }
