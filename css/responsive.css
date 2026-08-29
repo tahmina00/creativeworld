@@ -17,8 +17,22 @@
   }
 }
 
-@media (min-width: 576px) { 
 
-   
-    
- }
+      @media (max-width: 575.98px) {
+        .dropdown-container {
+          display: grid !important;
+          grid-template-columns: repeat(3, 1fr); 
+          gap: 8px !important;
+        }
+        .dropdown-container .dropdown {
+          width: 100%;
+        }
+        .dropdown-container .btn {
+          width: 100%;
+          font-size: 11px; 
+          padding: 6px 2px;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          white-space: nowrap;
+        }
+      }
