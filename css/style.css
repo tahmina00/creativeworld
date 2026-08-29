@@ -33,6 +33,14 @@ color:#fff;
     color:#fff;
 }
 
+.btn.btn-secondary.bg-white.text-dark.dropdown-toggle.fw-bold{
+      border: 1px solid #ececec !important;
+      font-size: 0.8125rem !important;
+      }
+      .btn.btn-secondary.bg-white.text-dark.dropdown-toggle.fw-bold span{
+        padding-left:4px;
+      }
+
 /* Filter Button Card Style */
 .btn-filter {
   background-color: #ffffff;
@@ -57,6 +65,8 @@ color:#fff;
   margin-right: 6px;
   color: #333333;
 }
+
+
 
 /* Sort Dropdown Right Side */
 .btn-sort {
